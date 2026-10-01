@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  /* max-height: 100%; */
+  /* background-color: antiquewhite; */
+  background-color: #f4f6f0;
+
+  /* border: 2px solid red; */
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar {
+  /* border: 2px solid red; */
+  padding: 0.5rem;
+  line-height: 1.5;
+  /* background-color: #F4F6F0; */
+  background-color: antiquewhite;
+}
+
+.text-logo {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.site-desc {
+  text-align: center;
+  /* line-height: 0.5rem; */
+  font-style: italic;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+
+.main-section {
+  border: 2px solid black;
+  padding: 1rem;
+}
