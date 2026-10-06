@@ -82,3 +82,23 @@ button {
 #submit {
   background-color: green;
 }
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  input {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1.5rem;
+  }
+
+  input {
+    margin-bottom: 2rem;
+  }
+}
