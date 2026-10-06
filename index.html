@@ -23,6 +23,59 @@
     <main>
       <section class="main-section">
         <p class="user-instructions">Enter your details to book tickets!</p>
+
+        <div class="form-container">
+          <form>
+            <label for="userName"></label>
+            <input
+              type="text"
+              name="userName"
+              id="userName"
+              placeholder="*Enter your name"
+              required
+            />
+
+            <label for="userEmail"></label>
+            <input
+              type="email"
+              name="userEmail"
+              id="userEmail"
+              placeholder="*Enter your email"
+              required
+            />
+
+            <label for="userMobileNumber"></label>
+            <input
+              type="tel"
+              name="userMobileNumber"
+              id="userMobileNumber"
+              placeholder="*Enter your mobile number"
+              required
+            />
+
+            <label for="movieName">Select a movie to watch</label>
+            <select name="movieName" id="movieName" required>
+              <option value="">--Choose from options--</option>
+              <option value="movie1" selected>Movie 1</option>
+              <option value="movie2">Movie 2</option>
+              <option value="movie 3">Movie 3</option>
+            </select>
+
+            <label for="tickets"></label>
+            <input
+              type="number"
+              name="tickets"
+              id="tickets"
+              placeholder="*Number of tickets to book"
+              required
+            />
+
+            <div class="buttons-group">
+              <button type="reset" id="reset">Reset</button>
+              <button type="submit" id="submit">Submit</button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
 

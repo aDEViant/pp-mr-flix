@@ -6,11 +6,7 @@
 }
 
 body {
-  /* max-height: 100%; */
-  /* background-color: antiquewhite; */
   background-color: #f4f6f0;
-
-  /* border: 2px solid red; */
 }
 
 a {
@@ -22,10 +18,8 @@ li {
 }
 
 .navbar {
-  /* border: 2px solid red; */
   padding: 0.5rem;
   line-height: 1.5;
-  /* background-color: #F4F6F0; */
   background-color: antiquewhite;
 }
 
@@ -36,7 +30,7 @@ li {
 
 .site-desc {
   text-align: center;
-  /* line-height: 0.5rem; */
+  line-height: 0.7rem;
   font-style: italic;
 }
 
@@ -47,6 +41,44 @@ li {
 }
 
 .main-section {
-  border: 2px solid black;
   padding: 1rem;
+  margin-top: 2rem;
+}
+
+.form-container {
+  margin-top: 0.2rem;
+}
+
+input {
+  height: 2rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+
+#tickets {
+  margin-top: 1rem;
+}
+
+.buttons-group {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  height: 3rem;
+  width: 8rem;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  color: white;
+}
+
+#reset {
+  background-color: red;
+}
+
+#submit {
+  background-color: green;
 }
